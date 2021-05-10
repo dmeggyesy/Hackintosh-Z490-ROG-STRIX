@@ -48,3 +48,4 @@ Anti-Hackintosh Buyers Guide - https://dortania.github.io/Anti-Hackintosh-Buyers
 Z490 USBInjectAll - https://www.reddit.com/r/hackintosh/comments/gvdrns/i7_10700k_rog_strix_z490a_gaming_rx_590/
 OpenCore Comet Lake - https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#deviceproperties
 Hackintosh-ROG-STRIX-Z490l - https://github.com/jergoo/Hackintosh-ROG-STRIX-Z490I
+Force RGB from DVI-D - https://www.reddit.com/r/MacOS/comments/dkowz1/instructions_for_forcing_rgb_mode_in_catalina/
