@@ -76,7 +76,16 @@ There seems to be no real disadvantage to omitting the AURA Connector.
 ### iGPU / HDMI Audio
 This build uses the iGPU in processing mode only, and doesn't require HDMI audio at all.
 
-
+### Fixing Sleep
+If any sleep issues - follow OpenCore Post-Install guide.
+Basically:
+```
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+sudo pmset tcpkeepalive 0
+```
 
 
 
@@ -94,3 +103,4 @@ References:
 * Hackintosh-ROG-STRIX-Z490l - https://github.com/jergoo/Hackintosh-ROG-STRIX-Z490I
 * Force RGB from DVI-D - https://www.reddit.com/r/MacOS/comments/dkowz1/instructions_for_forcing_rgb_mode_in_catalina/
 * Patch EDID - https://gist.github.com/adaugherity/7435890
+* Opencore post-install - https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html
