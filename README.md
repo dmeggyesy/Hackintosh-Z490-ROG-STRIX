@@ -42,7 +42,7 @@ macOS detected the RX570's DVI ports as being connected to TVs and thus was not 
 ### USB Mapping
 This board has the following mapping:
 (This is inside a NZXT 510 Elite - it has a single front USBc connected to the gen2 internal connector and a single front USB3 Type-A connected to the gen1 header)
-||||
+|||
 |-|-|
 |HS01|USB3 - Back - Blue - Top-Top (As USB2)|
 |HS02|USB3 - Back - Blue - Top-Bottom (As USB2)|
