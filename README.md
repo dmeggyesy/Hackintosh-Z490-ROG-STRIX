@@ -1,5 +1,5 @@
 # Hackintosh-Z490-ROG-STRIX
-Hackintosh Z490-A ROG STRIX
+Hackintosh ASUS ROG STRIX Z490-A GAMING
 
 ## Build
 |||
