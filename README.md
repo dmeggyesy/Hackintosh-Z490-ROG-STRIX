@@ -93,6 +93,9 @@ The intel i225v chipset requires a bootarg to prevent crashing when getting an I
 change boot arg “dk.e1000=0” to just “e1000=0” (or have both, it’s fine)
 ```
 
+### Current Issues:
+Have upgraded to a 6600 gpu and having sleep crashes/issues as well as certain programs misbehaving on wake on Monterey.
+
 References:
 * ASUS ROG STRIX Z490A Specs - https://rog.asus.com/au/motherboards/rog-strix/rog-strix-z490-a-gaming-model/
 * i9-10900k Specs - https://ark.intel.com/content/www/us/en/ark/products/199332/intel-core-i9-10900k-processor-20m-cache-up-to-5-30-ghz.html
