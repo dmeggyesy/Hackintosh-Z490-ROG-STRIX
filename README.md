@@ -87,11 +87,16 @@ sudo pmset proximitywake 0
 sudo pmset tcpkeepalive 0
 ```
 
-### Fixing Ethernet in Monterey -> Ventura
+### Fixing Ethernet in Monterey
 The intel i225v chipset requires a bootarg to prevent crashing when getting an IP address:
 ```
 change boot arg “dk.e1000=0” to just “e1000=0” (or have both, it’s fine)
 ```
+
+### Fixing Ethernet in Ventura
+Previous methods of fixing ethernet no longer work, apple removed the driver for this ethernet adapter in Ventura.  The driver now needs to be pulled from a Monterey install and re-injected (put in /OC/kexts).  Additionally, an acpi fix for the Gigabyte Z490 vision board appears to work fine for this board as well. (see references)
+
+
 
 ### Current Issues:
 Have upgraded to a 6600 gpu and having sleep crashes/issues as well as certain programs misbehaving on wake on Monterey.
@@ -112,3 +117,4 @@ References:
 * Patch EDID - https://gist.github.com/adaugherity/7435890
 * Opencore post-install - https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html
 * PSA: Monterey 12.3 and I225V Panics - https://www.reddit.com/r/hackintosh/comments/tf4hpy/psa_monterey_123_and_i225v_panics_use_bootarg/
+* Gigabyte Z490 i255-v fix - https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225-V_FIX.md#option-1-using-a-ssdt-with-corrected-header-description
